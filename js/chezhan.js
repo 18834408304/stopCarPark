@@ -98,7 +98,7 @@ let config = {
 	todayIncorme:BaASE_URL+"/index/platform/income_comparison",
 	stopLength:BaASE_URL+"/index/platform/parking_length",
 	getAllPark:BaASE_URL+"/index/platform/get_country_parking",//获取所有停车场的信息
-	getOneParkInfo: BaASE_URL + "/index/platform/get_parking_info",  //获取某个停车场的详细信息
+	getOneParkInfo: BaASE_URL + "/index/platform/get_parking_info?park_id=val",  //获取某个停车场的详细信息
 	getWarning: BaASE_URL + "/index/platform/device_warning" //获取设备警告信息
 }
 let updataTime = 2000;
